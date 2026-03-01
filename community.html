@@ -403,14 +403,14 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:clamp(2.
 // ═══════════════════════════════════════════════════════
 //  FIREBASE CONFIG — paste YOUR values here
 // ═══════════════════════════════════════════════════════
-const firebaseConfig = {
-  apiKey:            "PASTE_YOUR_apiKey_HERE",
-  authDomain:        "PASTE_YOUR_authDomain_HERE",
-  projectId:         "PASTE_YOUR_projectId_HERE",
-  storageBucket:     "PASTE_YOUR_storageBucket_HERE",
-  messagingSenderId: "PASTE_YOUR_messagingSenderId_HERE",
-  appId:             "PASTE_YOUR_appId_HERE"
-};
+const  firebase.initializeApp({
+  apiKey: "AIzaSyDl6q6vSnWIeaY843NOAL5Jpy0PpHjmG5o",
+  authDomain: "atozservicehub-d49ab.firebaseapp.com",
+  projectId: "atozservicehub-d49ab",
+  storageBucket: "atozservicehub-d49ab.firebasestorage.app",
+  messagingSenderId: "972035776073",
+  appId: "1:972035776073:web:a38c75e2ba3e4c2e406998"
+});
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
